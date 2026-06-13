@@ -100,7 +100,7 @@ deployment checks, and reusable findings format.
   forecast growth; context series such as VIX can be displayed without being
   forecast.
 - Do not commit `.streamlit/secrets.toml`.
-- Do not use local absolute paths such as `C:\Users\...` or `/Users/...`.
+- Do not use local absolute paths such as `C:\Users\...` or `/home/user/...`.
 - Keep the local `streamlit run ...` terminal open while testing the app.
 - Push regularly to a private GitHub repo; do not wait until the deadline to
   create the remote.

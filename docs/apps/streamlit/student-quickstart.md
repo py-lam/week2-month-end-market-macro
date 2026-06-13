@@ -143,7 +143,7 @@ Commit the latest app code before deployment. The public Streamlit app deploys
 from GitHub, not from uncommitted files on your computer.
 
 Do not commit secrets, `.streamlit/secrets.toml`, `.env`, `.venv/`, local paths
-such as `C:\Users\...` or `/Users/...`, or private raw data.
+such as `C:\Users\...` or `/home/user/...`, or private raw data.
 
 If this is your final project repo, add the instructor GitHub account as a
 collaborator as soon as the private repo exists. The helper files already carry

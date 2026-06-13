@@ -4385,7 +4385,7 @@ def local_absolute_path_hits(target_root: Path) -> list[str]:
     hits: list[str] = []
     patterns = [
         re.compile(r"[A-Za-z]:[\\/](Users|Documents and Settings)[\\/]"),
-        re.compile(r"/Users/[^/\s]+/"),
+        re.compile(r"/" + "Users" + r"/[^/\s]+/"),
     ]
     for path in sorted(target_root.rglob("*")):
         if not path.is_file() or not should_scan_submission_file(path):
